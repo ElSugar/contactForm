@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <title>Contact form</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Arsenal|Hammersmith+One|Manrope&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="web-title"> <span>WebDev</span> Services</h1>
+    <div class="form-container">
+      <div class="information">
+        <h3>Front-end development</h3>
+        <h4>GitHub account: github.com/ElSugar</h4>
+      </div>
+      <div class="contact-form">
+        <h3>Contanct Me</h3>
+        <form id="contactform">
+          <p>
+            <label>Full Name</label>
+            <input type="text" name="name" placeholder="Your Name" id="name">
+          </p>
+          <p>
+            <label>E-mail</label>
+            <input type="text" name="email" placeholder="example@gmail.com" id="email">
+          </p>
+          <p>
+            <label>Phone</label>
+            <input type="text" name="phone" placeholder="***********" id="phone">
+          </p>
+          <p>
+            <label>Message</label>
+            <textarea name="message" rows="3" id="message"></textarea>
+          </p>
+          <p>
+            <button>SUBMIT FORM</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script> -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>

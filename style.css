@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #313638;
+  padding: 1em;
+
+  font-family: 'Manrope', sans-serif;
+  color: #313638;
+}
+
+.container{
+  /*max-width: 1170px;*/
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+.web-title{
+  text-align: left;
+  font-size: 25px;
+  color: #E0DFD5;
+
+  margin-bottom: -20px;
+  font-family: 'Arsenal', sans-serif;
+}
+
+.web-title span{
+  color: #F09D51;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 35px;
+}
+
+.form-container{
+  background-color: #E0DFD5;
+  border-radius: 10px;
+}
+
+.information{
+  margin-bottom: -20px;
+}
+
+.information h3{
+  margin-bottom: -20px;
+}
+
+.information h3, h4{
+  text-align:  center;
+}
+
+.contact-form{
+  padding-top: 10px;
+  margin: 0 2em 0 2em;
+}
+
+.contact-form label{
+  display: block;
+  float: left;
+  width: 80px;
+  height: 15px;
+  margin: 10px;
+}
+
+.contact-form form button, .contact-form form input, .contact-form form textarea{
+  width: 100%;
+  padding: 1em;
+}
+
+.contact-form form button{
+  background-color: #F09D51;
+  border: 0;
+  margin: 1em;
+  cursor: pointer;
+  margin: 0 0 1em 0;
+}
